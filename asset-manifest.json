@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fetchy-clicker/static/css/main.76a0d0fa.css",
+    "main.js": "/fetchy-clicker/static/js/main.c60f0ec8.js",
+    "index.html": "/fetchy-clicker/index.html",
+    "main.76a0d0fa.css.map": "/fetchy-clicker/static/css/main.76a0d0fa.css.map",
+    "main.c60f0ec8.js.map": "/fetchy-clicker/static/js/main.c60f0ec8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76a0d0fa.css",
+    "static/js/main.c60f0ec8.js"
+  ]
+}
