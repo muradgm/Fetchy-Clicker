@@ -1,6 +1,6 @@
 {
-	"name": "fetchy-clicker",
-	"homepage": "http://muradgm.github.io/fetchy-clicker",
+	"name": "Fetchy-Clicker",
+	"homepage": "https://muradgm.github.io/Fetchy-Clicker",
 	"scripts": {
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
