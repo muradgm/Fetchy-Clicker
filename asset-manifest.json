@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/fetchy-clicker/static/css/main.76a0d0fa.css",
-    "main.js": "/fetchy-clicker/static/js/main.c60f0ec8.js",
-    "index.html": "/fetchy-clicker/index.html",
-    "main.76a0d0fa.css.map": "/fetchy-clicker/static/css/main.76a0d0fa.css.map",
-    "main.c60f0ec8.js.map": "/fetchy-clicker/static/js/main.c60f0ec8.js.map"
+    "main.css": "/Fetchy-Clicker/static/css/main.0ebbeb70.css",
+    "main.js": "/Fetchy-Clicker/static/js/main.7ce711ea.js",
+    "index.html": "/Fetchy-Clicker/index.html",
+    "main.0ebbeb70.css.map": "/Fetchy-Clicker/static/css/main.0ebbeb70.css.map",
+    "main.7ce711ea.js.map": "/Fetchy-Clicker/static/js/main.7ce711ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.76a0d0fa.css",
-    "static/js/main.c60f0ec8.js"
+    "static/css/main.0ebbeb70.css",
+    "static/js/main.7ce711ea.js"
   ]
 }
