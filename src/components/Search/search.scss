@@ -1,0 +1,8 @@
+@import "../mixins";
+
+.repos-wrapper {
+  @include md {
+    width: 70%;
+    margin: 0 auto;
+  }
+}

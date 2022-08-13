@@ -1,172 +1,32 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: "Helvetica Neue",Helvetica;
-    width: 100%;
-    height: 100vh;
+body {
+  font-family: "Helvetica Neue", Helvetica;
+  width: 100%;
+  height: 100vh;
 }
 
 .App {
-    width: 70%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    padding: 25px;
-
-}
-
-.spinner {
-    animation: rotate 2s linear infinite;
-    z-index: 2;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -25px 0 0 -25px;
-    width: 75px;
-    height: 75px;
-
-    & .path {
-        stroke: rgb(0, 0, 0);
-        stroke-linecap: round;
-        animation: dash 1.5s ease-in-out infinite;
-    }
-
-}
-
-@keyframes rotate {
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes dash {
-    0% {
-        stroke-dasharray: 1, 150;
-        stroke-dashoffset: 0;
-    }
-
-    50% {
-        stroke-dasharray: 90, 150;
-        stroke-dashoffset: -35;
-    }
-
-    100% {
-        stroke-dasharray: 90, 150;
-        stroke-dashoffset: -124;
-    }
-}
-
-.repo{
-    margin: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 25px 10px;
 }
 
 button {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: left;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 
-    &:active{
-        box-shadow: none;
-    }
-}
-
-.btn-wrapper{
-    padding-inline: 15px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    
-}
-.btn-wrapper h3{
-    line-height: 2;
-    margin-inline: 5px;
-    color: blue;
-    font-weight: normal;
-    position: relative;
-    // z-index: 1000;
-}
-
-.btn-wrapper h3:after {
-    content: " ";
-    width: 30px;
-    height: 30px;
-    background-color: #EFEFEF;
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    z-index: -1;
-}
-
-.btn-wrapper button {
-    margin-bottom: 20px;
-    font-size: 18px;
-    font-weight: bold;
-    color: blue;
-}
-
-.repo{
-    background-color: #EFEFEF;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-.repo-btn{
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    font-size: 16px;
-    &:active {
-        box-shadow: none;
-    }
-}
-
-.info-wrapper{
-    display: flex;
-    justify-content: space-between;
-    padding-inline: 10px;
-}
-
-img {
-    width: 150px;
-    align-self: right;
-    border-radius: 5px;
-    // padding-bottom: -5px;
-}
-
-.repo-info{
-    list-style: none;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-li{
-    line-height: 1.6;
-}
-
-li a {
-    text-decoration: none;
-}
-// .repo-info li:first-child{
-//     font-size: 20px;
-//     font-weight: bold;
-// }
-
-.active{
+  &:active {
     box-shadow: none;
-    font-size: 20px;
-    font-weight: bold;
-    color: blue;
+  }
 }

@@ -1,10 +1,10 @@
-import './App.scss'
-import GetRepos from './Search'
+import "./App.scss";
+import GetRepos from "./Search/Search";
 
 export default function App() {
-    return (
-        <main className="App">
-            <GetRepos  />
-        </main>
-    )
+  return (
+    <main className="App">
+      <GetRepos />
+    </main>
+  );
 }

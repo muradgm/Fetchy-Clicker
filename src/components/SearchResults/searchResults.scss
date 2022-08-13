@@ -1,0 +1,62 @@
+@import "../mixins";
+
+.repo {
+  margin: 5px;
+  background-color: #efefef;
+  border-radius: 5px;
+  padding: 10px;
+
+  .repo-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    &:active {
+      box-shadow: none;
+    }
+  }
+
+  .info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 10px;
+
+    ul {
+      padding-block: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      li {
+        line-height: 1.6;
+        list-style: none;
+
+        img {
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+      @include md {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+  a {
+    padding-bottom: 10px;
+    align-self: start;
+  }
+
+  .active {
+    box-shadow: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+  }
+}
