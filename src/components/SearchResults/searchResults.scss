@@ -7,6 +7,7 @@
   padding: 10px;
 
   .repo-btn {
+    width: 100%;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -26,9 +27,10 @@
 
     ul {
       padding-block: 20px;
+      gap: 10px;
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: start;
 
       li {
         line-height: 1.6;
@@ -54,7 +56,9 @@
   }
 
   .active {
+    width: 100%;
     box-shadow: none;
+    word-wrap: break-word;
     font-size: 20px;
     font-weight: bold;
     color: blue;
