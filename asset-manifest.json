@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Fetchy-Clicker/static/css/main.0ebbeb70.css",
+    "main.css": "/Fetchy-Clicker/static/css/main.2847f161.css",
     "main.js": "/Fetchy-Clicker/static/js/main.7ce711ea.js",
     "index.html": "/Fetchy-Clicker/index.html",
-    "main.0ebbeb70.css.map": "/Fetchy-Clicker/static/css/main.0ebbeb70.css.map",
+    "main.2847f161.css.map": "/Fetchy-Clicker/static/css/main.2847f161.css.map",
     "main.7ce711ea.js.map": "/Fetchy-Clicker/static/js/main.7ce711ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ebbeb70.css",
+    "static/css/main.2847f161.css",
     "static/js/main.7ce711ea.js"
   ]
 }
